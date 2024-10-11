@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  .MuiAppBar-root {
+    background-color: #6200ea; /* Customize color */
+  }
+  
+  .MuiButton-outlined {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  /* Hero Section Styles */
+  .hero-container {
+    background-color: #f3f4f6;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .hero-container h3 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero-container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .hero-container .MuiButton-root {
+    margin-top: 20px;
+    background-color: #6200ea;
+    color: white;
+  }
+  
+  /* Stats Section Styles */
+  .stats-container {
+    background-color: #f9fafb;
+    padding: 40px 0;
+  }
+  
+  .stats-container h6 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .stats-container p {
+    color: #666;
+  }
+  
+  /* Category Section Styles */
+  .category-card {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card h6 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #6200ea;
+  }
+  
+  .category-card p {
+    color: #333;
+  }
+  
+  /* Button Styles */
+  .MuiButton-contained {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #4b00b4;
+  }
+  
+  /* Footer (if any) */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #6200ea;
+    text-decoration: none;
+  }
+  
