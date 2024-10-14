@@ -7,7 +7,7 @@ const Navbar = () => {
     <AppBar position="static" sx={{ backgroundColor: '#45a049' }}>
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          STELLAR_CLASSES
+          STELLAR CLASSES
         </Typography>
         <Button color="inherit">Home</Button>
         <Button color="inherit">Courses</Button>
@@ -15,7 +15,7 @@ const Navbar = () => {
         <IconButton color="inherit">
           <SearchIcon />
         </IconButton>
-        <Button variant="outlined" style={{ marginRight: '10px' }}color="inherit">Login</Button>
+        <Button variant="outlined" style={{ marginRight: '10px' }} color="inherit">Login</Button>
         <Button variant="outlined" color="inherit">
           SignUp
         </Button>

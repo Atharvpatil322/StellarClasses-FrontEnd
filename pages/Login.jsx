@@ -49,13 +49,13 @@ const Login = () => {
         </Form.Item>
 
         <div className="button-container">
-            <button className="btn" type="submit">
-              Login
-            </button>
-            <Link to="/register" className="m-2">
-              Already a user? Register here
-            </Link>
-          </div>
+          <button className="btn" type="submit">
+            Login
+          </button>
+          <Link to="/register" className="m-2">
+            Not a user? Register here
+          </Link>
+        </div>
       </Form>
     </div>
   );
